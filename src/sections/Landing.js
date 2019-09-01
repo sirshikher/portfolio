@@ -63,7 +63,12 @@ const LandingPage = () => (
 
         return (
           <Fragment>
-            <Heading style={{fontFamily:'kalam' }}
+            <style>
+              @import
+              url('https://fonts.googleapis.com/css?family=Kalam&display=swap&subset=devanagari');
+            </style>
+            <Heading
+              style={{ fontFamily: 'kalam, cursive' }}
               textAlign="center"
               as="h2"
               color="primary"
