@@ -1,4 +1,4 @@
-# Gatsby Starter: Mate
+ # Shikher
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/EmaSuriano/gatsby-starter-mate.svg)](https://greenkeeper.io/)
 [![Travis badge](https://api.travis-ci.org/EmaSuriano/gatsby-starter-mate.svg)](https://travis-ci.org/EmaSuriano/gatsby-starter-mate)
@@ -6,7 +6,6 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c8fc076b30bd493f0cfc/maintainability)](https://codeclimate.com/github/EmaSuriano/gatsby-starter-mate/maintainability)
 
-![Gatsby Starter Mate logo](./media/gatsby-starter-mate-logo.png)
 
 > A portfolio starter for Gatsby integrated with Contentful CMS.
 
@@ -145,7 +144,6 @@ As the starter is a SPA it only has two routes:
 | Home     |     ![Home](media/home.png)     |
 | About me |  ![About me](media/about.png)   |
 | Projects | ![Projects](media/projects.png) |
-| Writing  |  ![Writing](media/writing.png)  |
 | /404     |      ![404](media/404.png)      |
 
 ## Building your site 📦
@@ -168,7 +166,7 @@ Regarding the projects and social links the process is the same! Contentful is r
 
 ## Configuration (Optional) 👷‍♂️
 
-Mate starter is a SPA (Single Page Application), so basically you have only two pages:
+This is a SPA (Single Page Application), so basically you have only two pages:
 
 - `Main.js`: portfolio itself
 - `404.js`: 404 error page with the same style
@@ -180,7 +178,6 @@ The structure for the main page is the following:
   <Landing />
   <About />
   <Projects />
-  <Writing />
 </Layout>
 ```
 
